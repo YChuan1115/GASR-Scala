@@ -1,6 +1,6 @@
-# BMCGibbs
-The scala version for Gibbs Bayesian matrix completion. Get the .jar files yourself and have fun testing it!
-Scala codes are not very efficient, as a result if you are interested in applying my algorithm to practical issues, please try the C++ version named GibbsBMC.
+# Gibbs sampler for Adaptive relaxed Spectral Regularization (GASR) -- Scala version
+###Introduction
+This is the Scale code for implementing the GASR algorithm in the paper: 
+> Yang Song, Jun Zhu, *Bayesian Matrix Completion via Adaptive Relaxed Spectral Regularization*, to appear in AAAI 2016.
 
-###Notice
-This is part of some work aimed for publication. All rights are reserved temporarily.
+There is also a similar (but much faster) [C++ version](https://github.com/hjss06/GASR-Scala).
